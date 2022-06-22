@@ -1,0 +1,108 @@
+/*Selector universal - global*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+    /*La altura del elemento está constituida por la suma de su margin, border, padding
+    y la altura del contenido*/
+
+    /*Altura del elemento h1 25px + 25px + 5px + 5px + 10px + 10px + 60px = 140px*/
+
+    /*Modelo de caja*/
+
+/*Regla CSS*/
+
+
+header {
+    background-color: rgb(54, 148, 132);
+    position: sticky; /*static, absolute, fixed, sticky*/
+    width: 100%;
+    display: flex; /*None, block, inline, flex, grid*/
+    flex-direction: row; /*row, column*/
+    justify-content: space-between; /*alinea en el eje x - horizontal*/
+    align-items: center; /*Alinea en el eje y - vertical*/
+
+}
+
+
+
+nav ul{
+
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+nav ul li{
+
+    margin: 5px;
+
+
+}
+
+
+nav ul li a{
+    
+    color: white;
+    font-size: 18pt; /*rem, px, pt*/
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{ /*seudoselector*/
+
+    color: black;
+    font-size: 25pt; /*rem, px, pt*/
+    text-decoration: none;
+
+}
+
+
+
+main{
+
+    margin-top: 5rem;
+    display: flex;
+
+
+}
+
+
+main section{
+   
+    margin: 5rem;
+    padding: 5rem;
+
+   /*
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+
+    border: solid black 3px; -> Short hand
+    
+    */
+
+    
+    
+    border-radius: 2rem;
+
+    box-shadow: 5px -5px 8px rgba(0, 0, 0, 0.342), -5px 5px 12px rgba(0, 0, 0, 0.363) ;
+
+
+}
+
+
+
+
+/*
+
+    Modelo de caja flexible.
+
+*/
+
+
+
+
+
