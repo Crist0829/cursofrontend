@@ -147,6 +147,78 @@ main section:hover{
 
 
 
+/*Seccion del formulari de contacto*/
+
+
+
+.section-formu{
+
+    margin: 5rem;
+    padding: 2rem;
+
+}
+
+
+.formu{
+
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+
+
+.formu label{
+    margin-bottom: 0.5rem;
+}
+
+.formu input{
+
+    border-radius: 1rem;
+    border-color: rgba(0, 0, 255, 0.363);
+    font-size: 14pt;
+    padding-left: 1rem;
+
+}
+
+.formu textarea{
+
+    border-radius: 1rem;
+    border-color: rgba(0, 0, 255, 0.363);
+    font-size: 14pt;
+    padding-left: 1rem;
+
+}
+
+.formu input::placeholder{
+
+    color: rgba(0, 0, 255, 0.219);
+
+}
+
+.formu button{
+
+    font-size: 14pt;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.363);
+    border: none;
+    border-radius: 1rem;
+    padding: 0.3rem;
+
+}
+
+
+
+
+
+
+
+/*Fin Seccion del formulari de contacto*/
+
+
+
+
 footer{    
     
     background-color: #222;
