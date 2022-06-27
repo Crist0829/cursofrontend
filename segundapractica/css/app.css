@@ -9,6 +9,9 @@ body{
 
     background-image: url(https://thumbs.dreamstime.com/z/modelo-incons%C3%BAtil-de-los-muebles-fondo-ejemplo-vector-en-89533012.jpg);
     background-repeat: repeat-x repeat-y;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
     /*La altura del elemento está constituida por la suma de su margin, border, padding
     y la altura del contenido*/
@@ -31,10 +34,13 @@ header {
 }
 
 header h1{
+    margin-left: 5rem;
+    font-family: 'Rubik Moonrocks', cursive;
     text-align: center;
     color: white;
-    font-size: 5rem;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185);
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+    /* text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185); */
 }
 header img{
     
@@ -42,45 +48,48 @@ header img{
     border: 10 px solid white;
     border-top: 0px;
     border-bottom: 0px;
+    margin-left: 1rem;
     margin-top: 0px;
     width: 200px;
-    
-}
-
-
-nav ul{
 
     
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding-right: 50px;
 }
 
 nav{
     width: 20rem;
-    margin : 0 2rem;
-
-
+    margin : 0 5rem;
 }
+nav ul{
+
+    
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 100px;
+}
+
+
+
+
+
 nav ul li{
 
-    margin: 5px;
-   
-    
-
+    margin: 0 0.7rem;
 }
+
 
 
 nav ul li a{
     
     /* padding: 2rem; */
-
+    font-family: 'Rubik Moonrocks', cursive;
     color: white;
     font-size: 18pt; /*rem, px, pt*/
     text-decoration: none;
-    transition: font-size 0.3s ease;    
+    border-bottom: 1px solid black;
+    border-bottom-width: 0px;
+    transition: all 0.3s ease;    
 }
 
 nav ul li a:hover{ /*seudoselector*/
@@ -88,7 +97,9 @@ nav ul li a:hover{ /*seudoselector*/
     padding: 0;
     color: black;
     font-size: 20pt; /*rem, px, pt*/
-    /* text-decoration: none; */
+    border-bottom-width: 0.3rem;
+    
+    
     
 }
 nav ul li a:active{
@@ -99,24 +110,109 @@ nav ul li a:active{
 
 /*fin de estilos del header*/   
 
-
+/* estilos del cuerpo de a pagina */
 main{
 
     margin-bottom: 4rem;
-   
-
     padding-top: 100px;
     
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+/* Estilos del main de contacto */
+
+.main-contacto {
+    
+    /* padding-top: 100px; */
+    /* margin: 3rem; */
+    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 8rem;
+    padding-top: 15rem;
+}
+
+.main-contacto section img{
+    border-radius: 1rem;
+    width: 40rem;
+    height:20rem;
+    box-shadow: 5px -5px 8px rgba(0, 0, 0, 0.242), -5px 5px 12px rgba(0, 0, 0, 0.263);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.main-contacto section img:hover{
+
+    box-shadow: 5px -5px 8px rgba(0, 0, 0, 0.642), -5px 5px 12px rgba(0, 0, 0, 0.663);
+    cursor:pointer;
+
+}
+
+.main-contacto ul{
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    font-size: 5rem;
+    box-shadow: 5px -5px 8px rgba(0, 0, 0, 0.242), -5px 5px 12px rgba(0, 0, 0, 0.263);
+    transition: box-shadow 0.3s ease-in-out;
+    list-style-type: square;
+}
+
+.main-contacto ul:hover{
+    box-shadow: 5px -5px 8px rgba(0, 0, 0, 0.642), -5px 5px 12px rgba(0, 0, 0, 0.663);
+    cursor:pointer;
+    
 
 }
 
 
 
 
-main section{
+
+.main-contacto ul li a{
+    
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    border-bottom-width: 0px;
+    transition: border-bottom-width 0.3s ease;
+
+}
+.phone{
+    
+        color: black;
+        text-decoration: none;
+        border-bottom: 1px solid black;
+        border-bottom-width: 0px;
+        transition: border-bottom-width 0.3s ease; 
+    }
+    
+.phone:hover{
+    
+color: black;
+border-bottom-width: 0.3rem;
+
+}   
+
+
+.main-contacto ul li a:hover{
+
+    color: black;
+    /* font-size: 20pt; /*rem, px, pt*/ 
+    border-bottom-width: 0.3rem;
+    
+}
+
+/* Fin de estilos del main de contacto */
+
+
+
+main div section{
     
     background-color: #fff;
     margin: 5rem;
@@ -138,17 +234,35 @@ main section{
     transition: box-shadow 0.3s ease-in-out;
 }
 
-main section:hover{
+main div section:hover{
 
     box-shadow: 5px -5px 8px rgba(0, 0, 0, 0.642), -5px 5px 12px rgba(0, 0, 0, 0.663);
-    cursor: pointer;
+    cursor:pointer;
     
 }
 
+.section-container-first{
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* main :last-child{
 
 
-footer{    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: aqua;
     
+} */
+
+/* fin de estilos del cuerpo de a pagina */
+
+/* Estilos del pie de pagina */
+footer{    
+    margin-top: auto;
+    position: static;
     background-color: #222;
     padding: 2rem;
     display: flex;
@@ -165,6 +279,9 @@ footer div a{
     color: #fff;
     text-decoration: none;
 }
+
+/* fin de estilos del pie de pagina */
+
 /*
 
     Modelo de caja flexible.
