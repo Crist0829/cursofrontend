@@ -101,12 +101,8 @@ nav ul li a:active{
 
 
 main{
-
     margin-bottom: 4rem;
-   
-
     padding-top: 100px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,7 +142,6 @@ main section:hover{
 }
 
 
-
 /*Seccion del formulari de contacto*/
 
 
@@ -157,7 +152,6 @@ main section:hover{
     padding: 2rem;
 
 }
-
 
 .formu{
 
@@ -208,14 +202,73 @@ main section:hover{
 
 }
 
-
-
-
-
-
-
 /*Fin Seccion del formulari de contacto*/
 
+
+
+/*Sección de catalogo*/
+
+.main-product{
+    margin-bottom: 4rem;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-product{
+    padding: 2rem;
+    margin: 2rem;
+    width: 15rem;
+}
+
+.seccion-product article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-product h1{
+    margin: 1rem;
+}
+
+.seccion-product p{
+    margin: 1rem;
+}
+
+.seccion-product img{
+    width: 15rem;
+}
+
+.seccion-product button{
+    width: 100%;
+    padding: 0.3rem;
+    color:white;
+    background-color: #364552;
+    border:none;
+    border-radius: 3rem;
+    font-size: 12pt;
+    transition: all 0.3s ease;
+}
+
+.seccion-product button:hover{
+    background-color: #335879;
+    padding: 0.4rem;
+    font-size: 14pt;
+}
+
+.seccion-product .hidden-content{
+    background-color: #335879;
+    margin: 1rem;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+
+
+
+/*Fin sección catalogo*/
 
 
 
