@@ -4,59 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
     <title>Mi primera página</title>
 </head>
 <body>
+<!--Cabecera-->
+    <header class="header-index" >
 
+        <h1>HOLA MUNDO</h1>
 
+    </header>
+<!--Fin Cabecera-->
+
+<!--Cuerpo-->
 <!-- Texto plano-->
+<main>
+    <section class="section-intro" >
 
-    <h1>HOLA MUNDO</h1>
-    <h2 id="segundoparrafo">Recetas de empanadas</h2>
-    <h3>Primero veamos que es una empanada</h3>
-    <p> Una empanada es una fina masa de pan, masa quebrada u hojaldre rellena con una preparación salada o dulce y cocida al horno o frita. <br>
-        El relleno puede incluir carnes rojas o blancas, pescado, verduras o fruta. La masa, generalmente, es de harina de trigo <br>
-        aunque también puede usarse harina de maíz u otros cereales y suele llevar alguna grasa, aceite o manteca. <br>
-        Las empanadas son un plato tradicional de la mayoría de las cocinas de los países de habla hispana, como España e Hispanoamérica.</p>
+        <h2 id="segundoparrafo">Recetas de empanadas</h2>
+        <h3>Primero veamos que es una empanada</h3>
+        <p> Una empanada es una fina masa de pan, masa quebrada u hojaldre rellena con una preparación salada o dulce y cocida al horno o frita. <br>
+            El relleno puede incluir carnes rojas o blancas, pescado, verduras o fruta. La masa, generalmente, es de harina de trigo <br>
+            aunque también puede usarse harina de maíz u otros cereales y suele llevar alguna grasa, aceite o manteca. <br>
+            Las empanadas son un plato tradicional de la mayoría de las cocinas de los países de habla hispana, como España e Hispanoamérica.</p>
 
-    <h2>Elija el tipo de empanada del cual quiere saber la receta</h2>
+    </section>
+
+        
+        <!-- Fin texto plano -->
+        
+        <!-- Listas de texto con imagenes de hipervinculo-->
+        <!-- Lista no ordenada-->
+
+    <section class="section-menu" >
+
+        <h2>Elija el tipo de empanada del cual quiere saber la receta</h2>
     
-<!-- Fin texto plano -->
+            <ul>
+            <li>
+                <h1>Emapandas de jamon y queso</h1>
+                <a href="./emp_jamonyqueso.html"><img src="./src/img/emapandasjamonyqueso.jpg" alt="Imagen de empanads de jamón y queso"width="400" height="200"></a> 
+            </li>
+            <li>
+                
+            <h1>Empanda de carne</h1>
+                <a href="./emp_carne.html"> <img src="./src/img/empanadasdecarne.jpg" alt="Imagen de empanda de carne"width="400" height="200"> </a>
+            </li>
+            <li>
+                <h1>Emapanda de pollo</h1>
+                <a href="./emp_pollo.html"> <img src="./src/img/empanadadepollo.jpg" alt="Imagen de empanada de pollo" width="400" height="200"> </a>
+            </li> 
+           
+        </ul>
 
-<!-- Listas de texto-->
-    <!-- Lista no ordenada-->
-    <ul>
-        <li>
-            <h1>Emapandas de jamon y queso</h1>
-            <a href="./emp_jamonyqueso.html"><img src="./src/img/emapandasjamonyqueso.jpg" alt="Imagen de empanads de jamón y queso"width="400" height="200"></a> 
-        </li>
-        <li>
-            
-        <h1>Empanda de carne</h1>
-            <a href="./emp_carne.html"> <img src="./src/img/empanadasdecarne.jpg" alt="Imagen de empanda de carne"width="400" height="200"> </a>
-        </li>
-        <li>
-            <h1>Emapanda de pollo</h1>
-            <a href="./emp_pollo.html"> <img src="./src/img/empanadadepollo.jpg" alt="Imagen de empanada de pollo" width="400" height="200"> </a>
-        </li> 
-       
-    </ul>
+    </section>
     <!-- Fin de la lista no ordenada-->
-
+</main>
+<!--fin Cuerpo-->
 <!--Fin de listas de texto-->
-<!--audio-->
+
+<!--Pie de pagina-->
+<footer>
+
     <div>
-        <audio controls autoplay src="./src/audio/alex zurdo - 07 el semaforo.mp3"></audio>
+        <audio controls src="./src/audio/alex zurdo - 07 el semaforo.mp3"></audio>
     </div>
-<!--audio-->
-
-<!-- Hipervinculos-->
-
+    
     <a href="#segundoparrafo">Ir arriba</a>
 
-<!-- Fin hipervinculos-->
+    <h2>quieres ver mas magia?</h2>
+    <a href="./magia.html">Click aqui</a>
+</footer>
 
-<h2>quieres ver mas magia?</h2>
-<a href="./magia.html">Click aqui</a>
+
+
 </body>
 </html>
