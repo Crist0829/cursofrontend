@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://img.freepik.com/foto-gratis/utensilios-cocina-tazas-madera-sobre-fondo-textura-pared-ladrillo-blanco_45281-626.jpg?w=2000);
+    background-repeat: repeat-x repeat-y;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+
+  
+
+}
+/* Estilos del heade */
+header{
+
+    background-color: blanchedalmond;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+    
+    
+}
+/* Fin estilos del heade */
+
+
+/* Estilos del main */
+
+/* Estilos del main index */
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4rem 2rem;
+}
+
+section{
+    margin: 1rem;
+    
+
+}
+
+.section-intro{
+    width: 100%;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    padding-top: 1rem;   
+}
+
+.section-menu{
+    
+    display: flex;
+    flex-direction: column;
+   /*  align-items: center;
+    justify-content: center; */
+    width: 100%;
+/*     padding: 2rem;*/
+
+}
+.section-menu h2{
+
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 25pt;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+    
+.section-menu ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem;
+
+    
+}
+
+.section-menu ul li{
+    background-color: #efefef;
+    border: 1px solid rgb(8, 8, 73);    
+    border-radius: 1rem;
+    list-style-type: none;
+    padding: 2rem;
+    padding-top: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-menu li:hover{
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.648) inset, -2px -2px 10px rgba(0, 0, 0, 0.408) inset;
+    text-indent: 0.5rem;
+    /* text-decoration: wavy; */
+}
+
+.content-list{
+    padding: 2rem;
+
+}
+
+
+/* Fin de estilos del main index */
+
+/* Estilos del main patty*/
+
+.main-patty{
+
+    padding: 4rem 2rem;
+    padding-bottom: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: flex-start ; */
+    font-size: 15pt;
+
+}
+
+.title-section{
+
+    font-size: 30pt;
+
+}
+
+.section-patty-ingredients{
+    height: 25rem;
+    width: 30rem;
+    padding: 1rem;
+    background-image: url(https://previews.123rf.com/images/nnnnae/nnnnae1507/nnnnae150700110/41936393-fondo-de-libros-de-cocina-se-puede-utilizar-para-cocinar-panader%C3%ADa-y-alimentos-fondo-receta-dise%C3%B1o-b.jpg);
+    background-position: center;
+    background-size: 1000px 500px;
+    border-radius: 0.8rem;
+    transition: all 0.5s ease;
+    padding-top: 3rem;
+    font-size: 18pt;
+    
+}
+
+.section-patty-ingredients ul{
+    list-style: outside;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.section-patty-ingredients:hover{
+    background-size: 1200px 650px;
+    box-shadow: 1px 1px 20px rgba(65, 65, 77, 0.346),-1px -1px 20px  rgb(65, 65, 77);
+    transform: matrix(-1px);
+}
+
+.section-patty-prescription{
+
+    background-color: #cecbcb8c;
+    width: auto;
+    list-style: inside;
+    padding: 1rem 5rem 1rem 1rem;
+    margin: 1rem;
+    border: 1px solid #efefef;
+    border-radius: 1rem;
+}
+
+.section-patty-prescription li{
+
+    margin: 3rem 1rem;
+    font-size: 20pt;
+    text-align: justify;
+    text-rendering: optimizeLegibility optimizeSpeed;
+
+}
+.end{
+    display: grid;
+    place-content: center;
+   
+}
+
+.section-patty-help{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.section-patty-help div {
+    background-color: #cecbcb8c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1rem 5rem 1rem 1rem;
+    
+    border: 1px solid #efefef;
+    border-radius: 1rem;
+ 
+}
+.section-patty-help img{
+    
+    padding: 1rem;
+
+}
+
+
+/* Fin estilos del main patty*/
+
+
+
+footer{
+
+    padding: 1rem;
+    height: 1.5rem;
+    margin-top: auto;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: blanchedalmond;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.729);
+}
+
+/* Fin estilos del main */
+
