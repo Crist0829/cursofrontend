@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(114, 112, 112);
+}
+
+#root{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.container-one{
+    text-align: center;
+    width: 30rem;
+    height: 40rem;
+    background-color: rgb(192, 189, 181);
+    padding: 3rem;
+    margin: 3rem;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.493), -1px -2px 8px rgba(0, 0, 0, 0.493);
+}
+
+.container-two{
+    text-align: center;
+    width: 30rem;
+    height: 40rem;
+    background-color: rgb(192, 189, 181);
+    padding: 3rem;
+    margin: 3rem;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.493), -1px -2px 8px rgba(0, 0, 0, 0.493);
+}
+
+.add-task{
+    height: 2rem;
+    background-color: rgb(204, 190, 153);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.493), -1px -2px 8px rgba(0, 0, 0, 0.493);
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-task input{
+    padding: 0.3rem;
+    border: none;
+}
+
+.add-task input:focus{
+    padding: 0.4rem;
+    border: none;
+    
+}
+
+.btn-add{
+    padding: 0.3rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: rgb(202, 172, 87);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.493), -1px -2px 3px rgba(0, 0, 0, 0.493);
+    transition: all 0.3s ease-in;
+}
+
+.btn-add:hover{
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    background-color: rgb(204, 165, 48);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.493), -1px -2px 5px rgba(0, 0, 0, 0.493);
+    cursor: pointer;
+}
+
+.a-task{
+    height: 2rem;
+    background-color: rgb(204, 190, 153);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.493), -1px -2px 8px rgba(0, 0, 0, 0.493);
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px){ /*Break point*/
+    #root{
+        flex-direction: column;
+        
+    }
+}
