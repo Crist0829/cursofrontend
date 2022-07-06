@@ -211,6 +211,14 @@ section{
 
 }
 
+.magia{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 
 /* Fin estilos del main patty*/
 
