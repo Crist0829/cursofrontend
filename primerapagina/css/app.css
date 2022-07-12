@@ -106,6 +106,16 @@ section{
 
 .content-list{
     padding: 2rem;
+    /* overflow: hidden; */
+}
+
+.image{
+
+
+    width: 22rem;
+    height: 12rem;
+    
+    /* overflow: hidden; */
 
 }
 
@@ -245,3 +255,25 @@ a{
 
 /* Fin estilos del main */
 
+
+@media (max-width: 768px){ /*Break point*/
+    main{
+        flex-direction: column;
+        
+    }
+    .section-menu ul{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+        padding: 1.5rem;
+    
+        
+    }
+    .section-menu li{
+        margin-top:  2rem;
+
+        
+    }
+}
